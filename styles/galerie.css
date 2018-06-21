@@ -1,0 +1,34 @@
+
+div.item img{
+  transition-property: padding;
+  transition-duration: 1s;
+}
+div.item:hover img{
+  filter: blur(5px);
+  padding: 10px;
+}
+
+div.item{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+div.item h3{
+  position: absolute;
+  width: 25%;
+  margin-top: -0.5%;
+  margin-left: 1%;
+  z-index: 100;
+  color: rgba(255, 255, 255, 0.0);
+  transition-property:color;
+  transition-duration: 0.4s;
+  display: flex;
+}
+div.item:hover h3{
+  color :rgba(255, 255, 255, 1)
+}
+@media only screen and (max-width: 830px){
+  div.main{
+    margin-top: 135px;
+  }
+}

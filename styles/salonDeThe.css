@@ -1,0 +1,58 @@
+
+div.background{
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/salonDeThe.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+div.content{
+  box-shadow: 5px 0px 10px;
+  width: 100%;
+  margin: 0px;
+
+}
+div.content h1{
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+@media only screen and (max-width: 830px){
+  div.background{
+    background-size: contain;
+    height: 420px;
+  }
+}
+@media only screen and (max-width: 740px){
+  div.background{
+    height: 300px;
+  }
+}
+@media only screen and (max-width: 600px){
+  div.background{
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 450px){
+  div.background{
+
+  }
+}
+div.main{
+  margin-top: 20px;
+}
+div.item{
+display: flex;
+flex-direction: column;
+box-shadow: 3px 3px 3px grey;
+background: #ecf0f1;
+}
+div.item h4{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin-bottom: 5px;
+}
+.little{
+  font-size: 13px;
+}

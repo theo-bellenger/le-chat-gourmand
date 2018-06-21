@@ -1,0 +1,38 @@
+body{
+  width: 100%;
+}
+div.title{
+  width: 60%;
+  border-bottom: 2px solid #CBC2C2;
+}
+main h4 span{
+  color: #CBC2C2;
+}
+main{
+background-color: #2F1B0C;
+}
+main h1{
+    font-style: italic;
+}
+main h1, h4{
+  font-family: 'Merriweather', sans-serif;
+  color: #CBC2C2;
+  margin-top: 20px;
+}
+main h4{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  background-color:
+}
+div.tripAdvisor img{
+  width: 10%;
+}
+div.tripAdvisor a h3 span{
+  color: #FF6F00;
+}
+@media only screen and (max-width: 830px){
+  main{
+    margin-top: 140px;
+  }
+}
